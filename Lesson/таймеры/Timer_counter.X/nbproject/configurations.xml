@@ -28,9 +28,9 @@
         <targetDevice>PIC16F84A</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>PICkit3PlatformTool</platformTool>
+        <platformTool>Simulator</platformTool>
         <languageToolchain>XC8</languageToolchain>
-        <languageToolchainVersion></languageToolchainVersion>
+        <languageToolchainVersion>1.44</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <compileType>
@@ -45,6 +45,8 @@
           <parseOnProdLoad>false</parseOnProdLoad>
           <alternateLoadableFile></alternateLoadableFile>
         </loading>
+        <subordinates>
+        </subordinates>
       </compileType>
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
@@ -58,8 +60,11 @@
       <HI-TECH-COMP>
         <property key="asmlist" value="true"/>
         <property key="define-macros" value=""/>
+        <property key="disable-optimizations" value="false"/>
         <property key="extra-include-directories" value=""/>
+        <property key="favor-optimization-for" value="-speed,+space"/>
         <property key="identifier-length" value="255"/>
+        <property key="local-generation" value="false"/>
         <property key="operation-mode" value="free"/>
         <property key="opt-xc8-compiler-strict_ansi" value="false"/>
         <property key="optimization-assembler" value="true"/>
@@ -71,6 +76,7 @@
         <property key="optimization-level" value="9"/>
         <property key="optimization-set" value="default"/>
         <property key="optimization-speed" value="false"/>
+        <property key="optimization-stable-enable" value="false"/>
         <property key="preprocess-assembler" value="true"/>
         <property key="undefine-macros" value=""/>
         <property key="use-cci" value="false"/>

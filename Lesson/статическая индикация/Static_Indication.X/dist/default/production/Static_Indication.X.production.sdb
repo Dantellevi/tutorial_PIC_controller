@@ -1,0 +1,60 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F84A ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"35 D:\gitRepository\tutorial_PIC_controller\Lesson\статическая индикация\Static_Indication.X\main.c
+[v _Port_init Port_init `(v  1 e 1 0 ]
+"46
+[v _OutputChar OutputChar `(v  1 e 1 0 ]
+"108
+[v _check_Button check_Button `(uc  1 e 1 0 ]
+"129
+[v _main main `(v  1 e 1 0 ]
+"208 C:\Program Files (x86)\Microchip\xc8\v1.44\include\pic16f84a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"452
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"496
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"644
+[v _RA2 RA2 `VEb  1 e 0 @42 ]
+"22 D:\gitRepository\tutorial_PIC_controller\Lesson\статическая индикация\Static_Indication.X\main.c
+[v _digit digit `uc  1 e 1 0 ]
+"129
+[v _main main `(v  1 e 1 0 ]
+{
+"149
+} 0
+"108
+[v _check_Button check_Button `(uc  1 e 1 0 ]
+{
+"111
+[v check_Button@butcount butcount `ui  1 a 2 0 ]
+"110
+[v check_Button@result result `uc  1 a 1 2 ]
+"127
+} 0
+"35
+[v _Port_init Port_init `(v  1 e 1 0 ]
+{
+"40
+} 0
+"46
+[v _OutputChar OutputChar `(v  1 e 1 0 ]
+{
+"47
+[v OutputChar@digit digit `uc  1 a 1 wreg ]
+[v OutputChar@digit digit `uc  1 a 1 wreg ]
+"46
+[v OutputChar@digit digit `uc  1 a 1 0 ]
+"106
+} 0

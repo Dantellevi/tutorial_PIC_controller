@@ -1,0 +1,150 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F84A ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\itoa.c
+[v _itoa itoa `(*.39uc  1 e 1 0 ]
+"17
+[v _utoa utoa `(*.39uc  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"17 D:\gitRepository\tutorial_PIC_controller\Lesson\LCD-дисплей\LCD_HD44780.X\lcd.c
+[v _OutPin OutPin `(v  1 s 1 OutPin ]
+"30
+[v _strob strob `(v  1 e 1 0 ]
+"37
+[v _check_Button check_Button `(uc  1 e 1 0 ]
+"60
+[v _Busy_flag Busy_flag `(v  1 s 1 Busy_flag ]
+"86
+[v _LCDcommand LCDcommand `(v  1 s 1 LCDcommand ]
+"92
+[v _Send_byte Send_byte `(v  1 s 1 Send_byte ]
+"150
+[v _LCDinit LCDinit `(v  1 e 1 0 ]
+"180
+[v _LCDdata LCDdata `(v  1 e 1 0 ]
+"192
+[v _LCDGotoXY LCDGotoXY `(v  1 e 1 0 ]
+"214
+[v _LCDstringXY LCDstringXY `(v  1 e 1 0 ]
+"22 D:\gitRepository\tutorial_PIC_controller\Lesson\LCD-дисплей\LCD_HD44780.X\main.c
+[v _Port_Init Port_Init `(v  1 e 1 0 ]
+"34
+[v _main main `(v  1 e 1 0 ]
+"164 C:\Program Files (x86)\Microchip\xc8\v1.44\include\pic16f84a.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"208
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"452
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"496
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"664
+[v _RB7 RB7 `VEb  1 e 0 @55 ]
+"34 D:\gitRepository\tutorial_PIC_controller\Lesson\LCD-дисплей\LCD_HD44780.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"43
+} 0
+"22
+[v _Port_Init Port_Init `(v  1 e 1 0 ]
+{
+"31
+} 0
+"214 D:\gitRepository\tutorial_PIC_controller\Lesson\LCD-дисплей\LCD_HD44780.X\lcd.c
+[v _LCDstringXY LCDstringXY `(v  1 e 1 0 ]
+{
+[v LCDstringXY@i i `*.26uc  1 p 2 11 ]
+[v LCDstringXY@x x `uc  1 p 1 13 ]
+[v LCDstringXY@y y `uc  1 p 1 14 ]
+"221
+} 0
+"180
+[v _LCDdata LCDdata `(v  1 e 1 0 ]
+{
+[v LCDdata@i i `uc  1 a 1 wreg ]
+[v LCDdata@i i `uc  1 a 1 wreg ]
+"182
+[v LCDdata@i i `uc  1 a 1 7 ]
+"186
+} 0
+"192
+[v _LCDGotoXY LCDGotoXY `(v  1 e 1 0 ]
+{
+[v LCDGotoXY@x x `uc  1 a 1 wreg ]
+"194
+[v LCDGotoXY@Address Address `uc  1 a 1 9 ]
+"192
+[v LCDGotoXY@x x `uc  1 a 1 wreg ]
+[v LCDGotoXY@y y `uc  1 p 1 7 ]
+[v LCDGotoXY@x x `uc  1 a 1 10 ]
+"210
+} 0
+"150
+[v _LCDinit LCDinit `(v  1 e 1 0 ]
+{
+"156
+[v LCDinit@i i `uc  1 a 1 9 ]
+"175
+} 0
+"86
+[v _LCDcommand LCDcommand `(v  1 s 1 LCDcommand ]
+{
+[v LCDcommand@i i `uc  1 a 1 wreg ]
+[v LCDcommand@i i `uc  1 a 1 wreg ]
+"88
+[v LCDcommand@i i `uc  1 a 1 6 ]
+"91
+} 0
+"92
+[v _Send_byte Send_byte `(v  1 s 1 Send_byte ]
+{
+[v Send_byte@i i `uc  1 a 1 wreg ]
+"96
+[v Send_byte@lowb lowb `uc  1 a 1 5 ]
+"95
+[v Send_byte@higb higb `uc  1 a 1 4 ]
+"92
+[v Send_byte@i i `uc  1 a 1 wreg ]
+"94
+[v Send_byte@i i `uc  1 a 1 3 ]
+"141
+} 0
+"17
+[v _OutPin OutPin `(v  1 s 1 OutPin ]
+{
+"21
+} 0
+"60
+[v _Busy_flag Busy_flag `(v  1 s 1 Busy_flag ]
+{
+"62
+[v Busy_flag@i i `uc  1 a 1 5 ]
+"84
+} 0
+"30
+[v _strob strob `(v  1 e 1 0 ]
+{
+"35
+} 0
+"37
+[v _check_Button check_Button `(uc  1 e 1 0 ]
+{
+"40
+[v check_Button@butcount butcount `ui  1 a 2 1 ]
+"39
+[v check_Button@result result `uc  1 a 1 3 ]
+"56
+} 0

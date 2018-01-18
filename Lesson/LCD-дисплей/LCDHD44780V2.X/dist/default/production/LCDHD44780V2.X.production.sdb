@@ -1,0 +1,120 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F84A ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"11 D:\gitRepository\tutorial_PIC_controller\Lesson\LCD-дисплей\LCDHD44780V2.X\lcd.c
+[v _lcd_out lcd_out `(v  1 e 1 0 ]
+"54
+[v _lcd_com lcd_com `(v  1 e 1 0 ]
+"78
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+"119
+[v _lcd_print_char lcd_print_char `(v  1 e 1 0 ]
+"138
+[v _lcd_print_string lcd_print_string `(v  1 e 1 0 ]
+"154
+[v _lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+"201
+[v _lcd_printStringXY lcd_printStringXY `(v  1 e 1 0 ]
+"212
+[v _lcd_clear lcd_clear `(v  1 e 1 0 ]
+"7 D:\gitRepository\tutorial_PIC_controller\Lesson\LCD-дисплей\LCDHD44780V2.X\main.c
+[v _Port_Init Port_Init `(v  1 e 1 0 ]
+"17
+[v _main main `(v  1 e 1 0 ]
+"164 C:\Program Files (x86)\Microchip\xc8\v1.44\include\pic16f84a.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"208
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"452
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"496
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"17 D:\gitRepository\tutorial_PIC_controller\Lesson\LCD-дисплей\LCDHD44780V2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"29
+} 0
+"201 D:\gitRepository\tutorial_PIC_controller\Lesson\LCD-дисплей\LCDHD44780V2.X\lcd.c
+[v _lcd_printStringXY lcd_printStringXY `(v  1 e 1 0 ]
+{
+[v lcd_printStringXY@str str `*.24uc  1 a 1 wreg ]
+[v lcd_printStringXY@str str `*.24uc  1 a 1 wreg ]
+[v lcd_printStringXY@x x `uc  1 p 1 9 ]
+[v lcd_printStringXY@y y `uc  1 p 1 10 ]
+"203
+[v lcd_printStringXY@str str `*.24uc  1 a 1 12 ]
+"205
+} 0
+"138
+[v _lcd_print_string lcd_print_string `(v  1 e 1 0 ]
+{
+[v lcd_print_string@str str `*.24uc  1 a 1 wreg ]
+[v lcd_print_string@str str `*.24uc  1 a 1 wreg ]
+[v lcd_print_string@str str `*.24uc  1 a 1 6 ]
+"145
+} 0
+"119
+[v _lcd_print_char lcd_print_char `(v  1 e 1 0 ]
+{
+[v lcd_print_char@data data `uc  1 a 1 wreg ]
+[v lcd_print_char@data data `uc  1 a 1 wreg ]
+"121
+[v lcd_print_char@data data `uc  1 a 1 4 ]
+"129
+} 0
+"154
+[v _lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+{
+[v lcd_gotoxy@x x `uc  1 a 1 wreg ]
+"161
+[v lcd_gotoxy@temp temp `uc  1 a 1 8 ]
+"154
+[v lcd_gotoxy@x x `uc  1 a 1 wreg ]
+[v lcd_gotoxy@y y `uc  1 p 1 5 ]
+"156
+[v lcd_gotoxy@x x `uc  1 a 1 7 ]
+"197
+} 0
+"212
+[v _lcd_clear lcd_clear `(v  1 e 1 0 ]
+{
+"216
+} 0
+"7 D:\gitRepository\tutorial_PIC_controller\Lesson\LCD-дисплей\LCDHD44780V2.X\main.c
+[v _Port_Init Port_Init `(v  1 e 1 0 ]
+{
+"14
+} 0
+"78 D:\gitRepository\tutorial_PIC_controller\Lesson\LCD-дисплей\LCDHD44780V2.X\lcd.c
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+{
+"109
+} 0
+"54
+[v _lcd_com lcd_com `(v  1 e 1 0 ]
+{
+[v lcd_com@com com `uc  1 a 1 wreg ]
+[v lcd_com@com com `uc  1 a 1 wreg ]
+"56
+[v lcd_com@com com `uc  1 a 1 4 ]
+"61
+} 0
+"11
+[v _lcd_out lcd_out `(v  1 e 1 0 ]
+{
+[v lcd_out@data data `uc  1 a 1 wreg ]
+[v lcd_out@data data `uc  1 a 1 wreg ]
+"13
+[v lcd_out@data data `uc  1 a 1 1 ]
+"45
+} 0

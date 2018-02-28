@@ -5,20 +5,12 @@
             <url>main.c</url>
             <bookmark id="1">
                 <name/>
-                <line>21</line>
+                <line>38</line>
                 <key/>
             </bookmark>
         </file>
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/D:/gitRepository/tutorial_PIC_controller/Lesson/I2C-TWI/ProjectLibraryI2C.X/ds1307.c</file>
-            <file>file:/D:/gitRepository/tutorial_PIC_controller/Lesson/I2C-TWI/ProjectLibraryI2C.X/I2C.h</file>
-            <file>file:/D:/gitRepository/tutorial_PIC_controller/Lesson/I2C-TWI/ProjectLibraryI2C.X/main.c</file>
-            <file>file:/D:/gitRepository/tutorial_PIC_controller/Lesson/I2C-TWI/ProjectLibraryI2C.X/USART.h</file>
-            <file>file:/D:/gitRepository/tutorial_PIC_controller/Lesson/I2C-TWI/ProjectLibraryI2C.X/I2C.c</file>
-            <file>file:/D:/gitRepository/tutorial_PIC_controller/Lesson/I2C-TWI/ProjectLibraryI2C.X/Main.h</file>
-            <file>file:/D:/gitRepository/tutorial_PIC_controller/Lesson/I2C-TWI/ProjectLibraryI2C.X/ds1307.h</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

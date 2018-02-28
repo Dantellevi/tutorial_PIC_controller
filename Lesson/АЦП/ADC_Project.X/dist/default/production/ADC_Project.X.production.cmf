@@ -1,0 +1,1180 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\ADC_Project.X.production.obj
+cinit CODE 0 7F7 7F7 9 2
+text1 CODE 0 51 51 7A6 2
+text2 CODE 0 D65 D65 29B 2
+text3 CODE 0 10D5 10D5 E 2
+text4 CODE 0 BCB BCB 19A 2
+text5 CODE 0 1108 1108 13 2
+text6 CODE 0 124C 124C 4D 2
+text7 CODE 0 12EA 12EA 59 2
+text8 CODE 0 166A 166A C3 2
+text9 CODE 0 A99 A99 132 2
+text10 CODE 0 1182 1182 21 2
+text11 CODE 0 11F1 11F1 2B 2
+text12 CODE 0 3 3 4E 2
+text13 CODE 0 809 809 5E 2
+text14 CODE 0 1495 1495 8E 2
+text15 CODE 0 1161 1161 21 2
+text16 CODE 0 867 867 109 2
+text17 CODE 0 801 801 8 2
+text18 CODE 0 1343 1343 5D 2
+text19 CODE 0 10E3 10E3 12 2
+text20 CODE 0 11A3 11A3 23 2
+text21 CODE 0 11C6 11C6 2B 2
+text22 CODE 0 140C 140C 89 2
+text23 CODE 0 1523 1523 8F 2
+text24 CODE 0 10CA 10CA B 2
+text25 CODE 0 112F 112F 18 2
+text26 CODE 0 1147 1147 1A 2
+text27 CODE 0 1299 1299 51 2
+text28 CODE 0 111B 111B 14 2
+text29 CODE 0 172D 172D D3 2
+text30 CODE 0 15B2 15B2 B8 2
+text31 CODE 0 13A0 13A0 6C 2
+text32 CODE 0 121C 121C 30 2
+text33 CODE 0 10F5 10F5 13 2
+maintext CODE 0 970 970 129 2
+cstackCOMMON COMMON 1 70 70 E 1
+cstackBANK0 BANK0 1 20 20 4E 1
+cstackBANK1 BANK1 1 A0 A0 1B 1
+cstackBANK2 BANK2 1 110 110 14 1
+cstackBANK3 BANK3 1 190 190 56 1
+bssBANK1 BANK1 1 BB BB 3 1
+strings STRING 0 1000 1000 AF 2
+$C:\Users\DANTE_~1\AppData\Local\Temp\s544.obj
+end_init CODE 0 0 0 3 2
+config CONFIG 0 2007 2007 1 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 6E-6F 1
+RAM BE-EF 1
+RAM 124-16F 1
+RAM 1E6-1EF 1
+BANK0 6E-6F 1
+BANK1 BE-EF 1
+BANK2 124-16F 1
+BANK3 1E6-1EF 1
+CONST 800-800 2
+CONST 10AF-10C9 2
+CONST 1800-1FFF 2
+ENTRY 800-800 2
+ENTRY 10AF-10C9 2
+ENTRY 1800-1FFF 2
+IDLOC 2000-2003 2
+STACK 124-16F 1
+CODE 800-800 2
+CODE 10AF-10C9 2
+CODE 1800-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-10F 1
+SFR3 180-18F 1
+EEDATA 2100-21FF 2
+STRCODE 800-800 2
+STRCODE 10AF-10C9 2
+STRCODE 1800-1FFF 2
+STRING 800-800 2
+STRING 10AF-10C9 2
+STRING 1800-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\ADC_Project.X.production.obj
+7F7 cinit CODE >735:C:\Users\DANTE_~1\AppData\Local\Temp\s544.
+7F7 cinit CODE >738:C:\Users\DANTE_~1\AppData\Local\Temp\s544.
+7F7 cinit CODE >749:C:\Users\DANTE_~1\AppData\Local\Temp\s544.
+7F8 cinit CODE >750:C:\Users\DANTE_~1\AppData\Local\Temp\s544.
+7F9 cinit CODE >751:C:\Users\DANTE_~1\AppData\Local\Temp\s544.
+7FA cinit CODE >752:C:\Users\DANTE_~1\AppData\Local\Temp\s544.
+7FB cinit CODE >753:C:\Users\DANTE_~1\AppData\Local\Temp\s544.
+7FC cinit CODE >759:C:\Users\DANTE_~1\AppData\Local\Temp\s544.
+7FC cinit CODE >761:C:\Users\DANTE_~1\AppData\Local\Temp\s544.
+7FD cinit CODE >762:C:\Users\DANTE_~1\AppData\Local\Temp\s544.
+10F5 text33 CODE >9:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+10F5 text33 CODE >12:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+10F8 text33 CODE >13:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+10F9 text33 CODE >18:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+10FA text33 CODE >21:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+10FD text33 CODE >22:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+10FE text33 CODE >23:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+10FF text33 CODE >24:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+1100 text33 CODE >28:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+1101 text33 CODE >32:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+1107 text33 CODE >33:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+121C text32 CODE >43:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+121D text32 CODE >45:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+1221 text32 CODE >46:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+1224 text32 CODE >49:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+122A text32 CODE >50:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+1237 text32 CODE >51:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+1240 text32 CODE >52:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+1243 text32 CODE >53:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+1245 text32 CODE >54:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+13A0 text31 CODE >62:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+13A0 text31 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+13A8 text31 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+13AF text31 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+13B3 text31 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+13BB text31 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+13C0 text31 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+13C4 text31 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+13CE text31 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+13D6 text31 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+13D6 text31 CODE >74:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+13DB text31 CODE >76:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+13DD text31 CODE >77:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+13E5 text31 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+13EB text31 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+13ED text31 CODE >80:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+13F3 text31 CODE >81:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+13F5 text31 CODE >82:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+1407 text31 CODE >83:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+140A text31 CODE >84:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+140B text31 CODE >86:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+15B2 text30 CODE >56:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+15B2 text30 CODE >63:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+15C3 text30 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+15CA text30 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+15D9 text30 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+15E0 text30 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+15E6 text30 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+15EB text30 CODE >69:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+15FD text30 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+160F text30 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+1613 text30 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+1614 text30 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+161A text30 CODE >74:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+161B text30 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+1621 text30 CODE >76:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+1625 text30 CODE >78:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+162D text30 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+1639 text30 CODE >80:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+1643 text30 CODE >81:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+1644 text30 CODE >83:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+164C text30 CODE >84:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+1650 text30 CODE >85:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+172D text29 CODE >62:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+172D text29 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+173E text29 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+1745 text29 CODE >69:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+1754 text29 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+175B text29 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+1760 text29 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+1772 text29 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+1784 text29 CODE >74:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+1788 text29 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+1789 text29 CODE >77:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+178A text29 CODE >78:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+1790 text29 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+1796 text29 CODE >134:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+179A text29 CODE >136:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+179C text29 CODE >137:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+17AA text29 CODE >138:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+17B2 text29 CODE >139:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+17BA text29 CODE >140:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+17BE text29 CODE >143:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+17C2 text29 CODE >145:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+17C4 text29 CODE >146:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+17D2 text29 CODE >147:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+17DA text29 CODE >148:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+17E2 text29 CODE >149:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+17E6 text29 CODE >156:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+111B text28 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lwtoft.c
+111B text28 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lwtoft.c
+1299 text27 CODE >66:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+129C text27 CODE >68:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+12E3 text27 CODE >70:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\ADClib.c
+1147 text26 CODE >9:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1148 text26 CODE >11:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+114A text26 CODE >13:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+114D text26 CODE >15:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+114E text26 CODE >16:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+114E text26 CODE >18:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1151 text26 CODE >19:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1151 text26 CODE >21:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1153 text26 CODE >23:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1154 text26 CODE >25:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1155 text26 CODE >26:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1155 text26 CODE >28:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1156 text26 CODE >29:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1156 text26 CODE >31:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1158 text26 CODE >33:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1159 text26 CODE >35:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+115A text26 CODE >36:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+115A text26 CODE >38:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+115B text26 CODE >39:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+115B text26 CODE >41:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+115D text26 CODE >43:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+115E text26 CODE >45:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+115F text26 CODE >46:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+115F text26 CODE >48:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+112F text25 CODE >59:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1130 text25 CODE >61:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1133 text25 CODE >62:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1139 text25 CODE >63:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+113C text25 CODE >64:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+113D text25 CODE >65:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1146 text25 CODE >66:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+10CA text24 CODE >211:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+10CA text24 CODE >213:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+10D0 text24 CODE >214:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+10D4 text24 CODE >215:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1523 text23 CODE >79:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1524 text23 CODE >81:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1527 text23 CODE >82:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1528 text23 CODE >84:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1529 text23 CODE >86:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+152B text23 CODE >87:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+152D text23 CODE >88:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+152F text23 CODE >89:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1533 text23 CODE >90:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1534 text23 CODE >84:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1542 text23 CODE >92:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+154B text23 CODE >94:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1551 text23 CODE >95:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1556 text23 CODE >96:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+155C text23 CODE >97:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1561 text23 CODE >98:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1567 text23 CODE >99:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+156C text23 CODE >100:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1572 text23 CODE >101:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1577 text23 CODE >102:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+157D text23 CODE >103:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1583 text23 CODE >104:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1589 text23 CODE >105:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+158F text23 CODE >106:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1595 text23 CODE >107:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+159B text23 CODE >108:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+15A1 text23 CODE >109:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+15A7 text23 CODE >110:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+15AD text23 CODE >111:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+15B1 text23 CODE >112:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+140C text22 CODE >155:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+140D text22 CODE >157:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1415 text22 CODE >159:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+141D text22 CODE >160:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+141D text22 CODE >162:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+141E text22 CODE >164:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1421 text22 CODE >166:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1422 text22 CODE >170:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1427 text22 CODE >171:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1435 text22 CODE >172:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+143A text22 CODE >173:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+143B text22 CODE >177:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1440 text22 CODE >178:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+144E text22 CODE >179:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1453 text22 CODE >180:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1454 text22 CODE >184:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1459 text22 CODE >185:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1467 text22 CODE >186:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+146C text22 CODE >187:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+146D text22 CODE >191:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1472 text22 CODE >192:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1480 text22 CODE >193:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1485 text22 CODE >196:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1486 text22 CODE >166:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1494 text22 CODE >198:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+11C6 text21 CODE >120:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+11C7 text21 CODE >122:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+11CA text21 CODE >123:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+11D8 text21 CODE >124:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+11DB text21 CODE >125:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+11DC text21 CODE >126:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+11E3 text21 CODE >127:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+11E6 text21 CODE >128:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+11E7 text21 CODE >129:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+11F0 text21 CODE >130:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+11A3 text20 CODE >138:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+11A3 text20 CODE >140:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+11B1 text20 CODE >142:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+11C1 text20 CODE >143:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+11C5 text20 CODE >140:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+10E3 text19 CODE >200:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+10E3 text19 CODE >202:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+10ED text19 CODE >203:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+10F4 text19 CODE >204:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\LCDlib.c
+1343 text18 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftge.c
+1343 text18 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftge.c
+1345 text18 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftge.c
+136A text18 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftge.c
+136C text18 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftge.c
+1391 text18 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftge.c
+1393 text18 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftge.c
+1395 text18 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftge.c
+801 text17 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftneg.c
+801 text17 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftneg.c
+806 text17 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftneg.c
+867 text16 CODE >86:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+867 text16 CODE >90:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+875 text16 CODE >91:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+881 text16 CODE >92:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+890 text16 CODE >93:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+897 text16 CODE >94:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8A6 text16 CODE >96:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8AA text16 CODE >97:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8AB text16 CODE >98:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8AC text16 CODE >99:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8AD text16 CODE >100:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8AE text16 CODE >101:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8AF text16 CODE >102:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8B5 text16 CODE >103:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8B6 text16 CODE >104:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8BC text16 CODE >106:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8C0 text16 CODE >110:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8C8 text16 CODE >111:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8CA text16 CODE >112:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8D5 text16 CODE >114:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8DD text16 CODE >115:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8E1 text16 CODE >113:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8E6 text16 CODE >117:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8EA text16 CODE >121:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8F2 text16 CODE >122:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8F4 text16 CODE >123:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+8FF text16 CODE >125:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+907 text16 CODE >126:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+90B text16 CODE >124:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+90F text16 CODE >129:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+911 text16 CODE >131:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+917 text16 CODE >132:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+921 text16 CODE >134:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+923 text16 CODE >136:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+929 text16 CODE >137:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+933 text16 CODE >139:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+934 text16 CODE >140:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+942 text16 CODE >141:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+944 text16 CODE >142:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+94A text16 CODE >143:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+954 text16 CODE >144:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+956 text16 CODE >146:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+1161 text15 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftsub.c
+1161 text15 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftsub.c
+1168 text15 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftsub.c
+116A text15 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftsub.c
+1495 text14 CODE >44:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+1495 text14 CODE >49:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+14A6 text14 CODE >50:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+14AF text14 CODE >51:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+14C1 text14 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+14C2 text14 CODE >53:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+14C8 text14 CODE >54:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+14CF text14 CODE >55:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+14D1 text14 CODE >56:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+14D3 text14 CODE >57:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+14D8 text14 CODE >58:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+14E1 text14 CODE >60:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+14EA text14 CODE >61:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+14F1 text14 CODE >63:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+14F5 text14 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+14FE text14 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+1507 text14 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+1509 text14 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+1509 text14 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+150C text14 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+150F text14 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+151A text14 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+809 text13 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+809 text13 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+811 text13 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+817 text13 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+819 text13 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+81B text13 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+824 text13 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+828 text13 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+829 text13 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+832 text13 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+842 text13 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+850 text13 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+851 text13 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+85A text13 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+85E text13 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+3 text12 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\llmod.c
+3 text12 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\llmod.c
+B text12 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\llmod.c
+D text12 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\llmod.c
+F text12 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\llmod.c
+18 text12 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\llmod.c
+1C text12 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\llmod.c
+1D text12 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\llmod.c
+2D text12 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\llmod.c
+3B text12 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\llmod.c
+44 text12 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\llmod.c
+48 text12 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\llmod.c
+11F1 text11 CODE >35:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lltoft.c
+11F1 text11 CODE >38:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lltoft.c
+11F5 text11 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lltoft.c
+11F9 text11 CODE >42:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lltoft.c
+1202 text11 CODE >43:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lltoft.c
+1206 text11 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lltoft.c
+1207 text11 CODE >45:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lltoft.c
+1182 text10 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+1182 text10 CODE >43:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+1184 text10 CODE >45:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+1186 text10 CODE >46:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+118C text10 CODE >47:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+1193 text10 CODE >48:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+119A text10 CODE >49:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+119E text10 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+A99 text9 CODE >60:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+A99 text9 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+AB1 text9 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+ABA text9 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+AD0 text9 CODE >69:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+AD9 text9 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+AE6 text9 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+AF3 text9 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+B00 text9 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+B0D text9 CODE >74:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+B15 text9 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+B17 text9 CODE >76:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+B1C text9 CODE >77:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+B20 text9 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+B29 text9 CODE >80:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+B53 text9 CODE >81:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+B75 text9 CODE >82:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+B76 text9 CODE >83:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+B76 text9 CODE >84:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+B83 text9 CODE >85:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+B87 text9 CODE >86:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+B89 text9 CODE >87:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+B8E text9 CODE >88:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+B97 text9 CODE >90:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+BA0 text9 CODE >91:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+BA7 text9 CODE >93:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+BAB text9 CODE >94:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+BB4 text9 CODE >96:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+BBD text9 CODE >97:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+BBF text9 CODE >95:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+BBF text9 CODE >98:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+BC2 text9 CODE >100:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fldivl.c
+166A text8 CODE >60:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+166A text8 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+167B text8 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+1684 text8 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+1693 text8 CODE >69:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+169C text8 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+169D text8 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+16A3 text8 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+16A4 text8 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+16AA text8 CODE >74:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+16B2 text8 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+16B4 text8 CODE >76:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+16B9 text8 CODE >77:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+16BD text8 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+16C6 text8 CODE >80:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+16D2 text8 CODE >81:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+16DC text8 CODE >82:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+16DD text8 CODE >84:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+16E5 text8 CODE >85:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+16E9 text8 CODE >86:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+16EB text8 CODE >87:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+16F0 text8 CODE >88:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+16F9 text8 CODE >90:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+1702 text8 CODE >91:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+1709 text8 CODE >93:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+170D text8 CODE >94:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+1716 text8 CODE >96:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+171F text8 CODE >97:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+1721 text8 CODE >95:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+1721 text8 CODE >98:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+1724 text8 CODE >100:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdivl.c
+12EA text7 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+12EA text7 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+12EB text7 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+12ED text7 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+12F2 text7 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+12F4 text7 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+12F6 text7 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+12FB text7 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+12FF text7 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+1301 text7 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+1305 text7 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+1307 text7 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+1309 text7 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+1310 text7 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+1314 text7 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+1315 text7 CODE >31:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+131C text7 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+1324 text7 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+132A text7 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+132B text7 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+1332 text7 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+1336 text7 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+1339 text7 CODE >40:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+133E text7 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awdiv.c
+124C text6 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+124C text6 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+124F text6 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+1251 text6 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+1256 text6 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+1258 text6 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+125A text6 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+125F text6 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+1263 text6 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+1265 text6 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+1267 text6 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+126E text6 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+1272 text6 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+1273 text6 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+127B text6 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+1281 text6 CODE >29:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+1288 text6 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+128C text6 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+128F text6 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+1294 text6 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awmod.c
+1108 text5 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul8.c
+110B text5 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul8.c
+110C text5 CODE >43:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul8.c
+110E text5 CODE >44:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul8.c
+1112 text5 CODE >45:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul8.c
+1114 text5 CODE >46:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul8.c
+1116 text5 CODE >47:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul8.c
+1119 text5 CODE >50:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul8.c
+BCB text4 CODE >409:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+BCE text4 CODE >413:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+BD2 text4 CODE >414:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+CA9 text4 CODE >415:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+CAD text4 CODE >416:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+D33 text4 CODE >417:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+10D5 text3 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\isdigit.c
+10D6 text3 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\isdigit.c
+D65 text2 CODE >425:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+D68 text2 CODE >428:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+D6A text2 CODE >429:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+D6C text2 CODE >430:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+D71 text2 CODE >431:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+E29 text2 CODE >432:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+E2E text2 CODE >433:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+E97 text2 CODE >434:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+EB6 text2 CODE >436:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+EBB text2 CODE >437:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+F73 text2 CODE >438:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+F78 text2 CODE >439:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+FE1 text2 CODE >440:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+51 text1 CODE >492:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+54 text1 CODE >533:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+5C text1 CODE >536:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+70 text1 CODE >538:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+74 text1 CODE >541:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+87 text1 CODE >542:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+88 text1 CODE >548:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+8A text1 CODE >611:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+96 text1 CODE >612:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+99 text1 CODE >613:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+9F text1 CODE >621:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+A3 text1 CODE >622:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+B2 text1 CODE >623:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+E5 text1 CODE >622:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+E6 text1 CODE >626:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+EA text1 CODE >628:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+EB text1 CODE >635:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+EC text1 CODE >662:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+EC text1 CODE >663:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+ED text1 CODE >699:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+EE text1 CODE >635:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+10A text1 CODE >825:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+11A text1 CODE >827:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+11E text1 CODE >829:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+122 text1 CODE >830:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+135 text1 CODE >831:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+148 text1 CODE >832:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+15D text1 CODE >833:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+161 text1 CODE >835:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+165 text1 CODE >836:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+16A text1 CODE >837:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+197 text1 CODE >838:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+19D text1 CODE >839:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+1B0 text1 CODE >840:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+1C3 text1 CODE >841:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+1C5 text1 CODE >842:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+1CB text1 CODE >846:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+1E4 text1 CODE >847:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+21D text1 CODE >848:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+230 text1 CODE >849:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+238 text1 CODE >850:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+24D text1 CODE >851:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+255 text1 CODE >1112:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+262 text1 CODE >1113:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+29B text1 CODE >1116:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+2D9 text1 CODE >1120:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+2EE text1 CODE >1121:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+2F0 text1 CODE >1123:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+2F8 text1 CODE >1125:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+310 text1 CODE >1126:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+32B text1 CODE >1129:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+331 text1 CODE >1130:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+332 text1 CODE >1131:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+361 text1 CODE >1132:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+39F text1 CODE >1133:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+3A1 text1 CODE >1136:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+3A7 text1 CODE >1137:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+3EB text1 CODE >1136:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+3F7 text1 CODE >1188:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+407 text1 CODE >1190:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+408 text1 CODE >1203:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+418 text1 CODE >1196:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+418 text1 CODE >1206:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+422 text1 CODE >1201:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+461 text1 CODE >1202:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+4A0 text1 CODE >1203:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+4A4 text1 CODE >1196:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+4A5 text1 CODE >1208:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+4B8 text1 CODE >1209:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+4BE text1 CODE >1207:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+4C9 text1 CODE >1211:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+4D6 text1 CODE >1212:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+4D8 text1 CODE >1214:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+4E2 text1 CODE >1215:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+4F5 text1 CODE >1219:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+4F8 text1 CODE >1221:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+50B text1 CODE >1227:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+56C text1 CODE >1232:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+56F text1 CODE >1228:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+57A text1 CODE >1229:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+5B9 text1 CODE >1230:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+5F8 text1 CODE >1231:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+60C text1 CODE >1232:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+664 text1 CODE >1228:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+665 text1 CODE >1236:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+678 text1 CODE >1237:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+67E text1 CODE >1235:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+683 text1 CODE >1259:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+6A6 text1 CODE >1261:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+6A8 text1 CODE >1262:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+6AC text1 CODE >1263:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+6B7 text1 CODE >1290:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+6C1 text1 CODE >1291:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+6C7 text1 CODE >1305:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+6CD text1 CODE >1306:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+711 text1 CODE >1305:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+71D text1 CODE >1339:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+738 text1 CODE >1340:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+743 text1 CODE >1341:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+75E text1 CODE >1342:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+765 text1 CODE >1422:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+765 text1 CODE >1438:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+777 text1 CODE >1439:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+782 text1 CODE >1524:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+788 text1 CODE >1474:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+795 text1 CODE >1489:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+7EE text1 CODE >1524:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+7F2 text1 CODE >1538:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+970 maintext CODE >5:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\main.c
+970 maintext CODE >11:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\main.c
+976 maintext CODE >12:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\main.c
+981 maintext CODE >13:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\main.c
+98C maintext CODE >14:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\main.c
+99A maintext CODE >15:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\main.c
+99F maintext CODE >19:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\main.c
+9AB maintext CODE >20:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\main.c
+9B9 maintext CODE >21:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\main.c
+A61 maintext CODE >22:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\main.c
+A73 maintext CODE >24:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\main.c
+A7E maintext CODE >25:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\main.c
+A8A maintext CODE >26:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\main.c
+A98 maintext CODE >17:D:\gitRepository\tutorial_PIC_controller\Lesson\¿÷œ\ADC_Project.X\main.c
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+___awdiv@counter 75 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+__Hspace_0 2008 0 ABS 0 - -
+__Hspace_1 1E6 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__size_of_lcd_com 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__size_of_lcd_out 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__end_of__tdiv_to_l_ 2E5A 0 CODE 0 text8 dist/default/production\ADC_Project.X.production.obj
+___ftdiv@exp 44 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__size_of_lcd_printStringXY 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__Hstrings 0 0 ABS 0 strings -
+_ADFM 4FF 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+_ADON F8 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+_Vref BB 0 BANK1 1 bssBANK1 dist/default/production\ADC_Project.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\DANTE_~1\AppData\Local\Temp\s544.obj
+_main 12E0 0 CODE 0 maintext dist/default/production\ADC_Project.X.production.obj
+btemp 7E 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+___ftadd@f1 46 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+___ftadd@f2 49 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+?_Get_Voltage 46 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+start 0 0 CODE 0 init C:\Users\DANTE_~1\AppData\Local\Temp\s544.obj
+__size_of___awdiv 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__size_of___awmod 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__size_of___ftadd 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__size_of___ftdiv 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__size_of___ftmul 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__size_of___ftneg 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__size_of___ftsub 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__size_of___fttol 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__CFG_BOREN$OFF 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__size_of___lldiv 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__size_of___llmod 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+lcd_out@data 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+?___wmul 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+___ftdiv@f1 39 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+___ftdiv@f2 36 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+___ftdiv@f3 41 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__Hpowerup 0 0 CODE 0 powerup -
+___awmod@sign 21 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+___ftge@ff1 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+___ftge@ff2 73 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+__end_of_lcd_gotoxy 292A 0 CODE 0 text22 dist/default/production\ADC_Project.X.production.obj
+__end_of__npowers_ 210C 0 STRING 0 strings dist/default/production\ADC_Project.X.production.obj
+__size_of_Get_Voltage 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__size_of_ADC_Init 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__size_of_ADC_Read 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__end_of_lcd_clear 21AA 0 CODE 0 text24 dist/default/production\ADC_Project.X.production.obj
+_sprintf$662 A0 0 BANK1 1 cstackBANK1 dist/default/production\ADC_Project.X.production.obj
+__size_of_lcd_clear 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+intlevel0 0 0 ENTRY 0 functab C:\Users\DANTE_~1\AppData\Local\Temp\s544.obj
+intlevel1 0 0 ENTRY 0 functab C:\Users\DANTE_~1\AppData\Local\Temp\s544.obj
+intlevel2 0 0 ENTRY 0 functab C:\Users\DANTE_~1\AppData\Local\Temp\s544.obj
+intlevel3 0 0 ENTRY 0 functab C:\Users\DANTE_~1\AppData\Local\Temp\s544.obj
+intlevel4 0 0 ENTRY 0 functab C:\Users\DANTE_~1\AppData\Local\Temp\s544.obj
+intlevel5 0 0 ENTRY 0 functab C:\Users\DANTE_~1\AppData\Local\Temp\s544.obj
+__size_of__div_to_l_ 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+___bmul@multiplicand 22 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+wtemp0 7E 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+___llmod@divisor 20 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__Hfunctab 0 0 ENTRY 0 functab -
+?_fround 36 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+Get_Voltage@voltage 4A 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+?__div_to_l_ 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+___awdiv@sign 76 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+__npowers_ 20BE 0 STRING 0 strings dist/default/production\ADC_Project.X.production.obj
+___ftmul@f1 26 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+___ftmul@f2 29 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+_lcd_clear 2194 0 CODE 0 text24 dist/default/production\ADC_Project.X.production.obj
+___ftneg@f1 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+___wmul@multiplicand 72 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+_ADCON0 1F 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+_ADRESH 1E 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+_ADRESL 9E 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__end_of_lcd_com 228E 0 CODE 0 text25 dist/default/production\ADC_Project.X.production.obj
+__end_of_lcd_out 22C2 0 CODE 0 text26 dist/default/production\ADC_Project.X.production.obj
+___awdiv@dividend 72 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+__end_of___bmul 2236 0 CODE 0 text5 dist/default/production\ADC_Project.X.production.obj
+__end_of___ftge 2740 0 CODE 0 text18 dist/default/production\ADC_Project.X.production.obj
+__end_of___wmul 2346 0 CODE 0 text10 dist/default/production\ADC_Project.X.production.obj
+lcd_printStringXY@str 78 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+?__tdiv_to_l_ 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+___ftsub@f1 56 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+___ftsub@f2 53 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__end_of_lcd_printString 238C 0 CODE 0 text20 dist/default/production\ADC_Project.X.production.obj
+___fttol@f1 3F 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__Lmaintext 0 0 ABS 0 maintext -
+__size_of_sprintf 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+_ADC_Init 21EA 0 CODE 0 text33 dist/default/production\ADC_Project.X.production.obj
+_ADC_Read 2438 0 CODE 0 text32 dist/default/production\ADC_Project.X.production.obj
+___bmul@multiplier 25 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+___awdiv@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+__size_of___ftpack 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__end_of___awdiv 2686 0 CODE 0 text7 dist/default/production\ADC_Project.X.production.obj
+__end_of___awmod 2532 0 CODE 0 text6 dist/default/production\ADC_Project.X.production.obj
+__end_of___ftadd 12E0 0 CODE 0 text16 dist/default/production\ADC_Project.X.production.obj
+__end_of___ftdiv 2CD4 0 CODE 0 text30 dist/default/production\ADC_Project.X.production.obj
+__end_of___ftmul 3000 0 CODE 0 text29 dist/default/production\ADC_Project.X.production.obj
+__end_of___ftneg 1012 0 CODE 0 text17 dist/default/production\ADC_Project.X.production.obj
+__end_of___ftsub 2304 0 CODE 0 text15 dist/default/production\ADC_Project.X.production.obj
+__end_of___fttol 2A46 0 CODE 0 text14 dist/default/production\ADC_Project.X.production.obj
+__end_of___lldiv 10CE 0 CODE 0 text13 dist/default/production\ADC_Project.X.production.obj
+__end_of___llmod A2 0 CODE 0 text12 dist/default/production\ADC_Project.X.production.obj
+__size_of_isdigit 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__end_of_lcd_printStringXY 21EA 0 CODE 0 text19 dist/default/production\ADC_Project.X.production.obj
+__end_of_ADC_Init 2210 0 CODE 0 text33 dist/default/production\ADC_Project.X.production.obj
+__end_of_ADC_Read 2498 0 CODE 0 text32 dist/default/production\ADC_Project.X.production.obj
+_dpowers 2020 0 STRING 0 strings dist/default/production\ADC_Project.X.production.obj
+__size_of__tdiv_to_l_ 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__end_of_fround 1ACA 0 CODE 0 text4 dist/default/production\ADC_Project.X.production.obj
+__size_of_scale 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__size_of___lltoft 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__size_of___lwtoft 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+___lldiv@counter 7D 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+ADC_Read@channel 74 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+start_initialization FEE 0 CODE 0 cinit dist/default/production\ADC_Project.X.production.obj
+___lldiv@dividend 74 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+lcd_init@lcd 76 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+fround@prec 45 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+_lcd_printString 2346 0 CODE 0 text20 dist/default/production\ADC_Project.X.production.obj
+_GO_nDONE FA 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__pcstackBANK1 A0 0 BANK1 1 cstackBANK1 dist/default/production\ADC_Project.X.production.obj
+__pcstackBANK2 110 0 BANK2 1 cstackBANK2 dist/default/production\ADC_Project.X.production.obj
+__pcstackBANK3 190 0 BANK3 1 cstackBANK3 dist/default/production\ADC_Project.X.production.obj
+___fttol@exp1 4C 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+___fttol@lval 48 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+ADC_Init@Uref 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+___lltoft@c 78 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+___ftpack 2740 0 CODE 0 text31 dist/default/production\ADC_Project.X.production.obj
+__tdiv_to_l_@f1 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+__tdiv_to_l_@f2 73 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+Get_Voltage@channel 4D 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+___ftpack@arg 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+___ftpack@exp 73 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+_isdigit$438 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+___int_sp 0 0 STACK 2 stack C:\Users\DANTE_~1\AppData\Local\Temp\s544.obj
+lcd_gotoxy@temp 77 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+__end_of___ftpack 2818 0 CODE 0 text31 dist/default/production\ADC_Project.X.production.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hcinit 1000 0 CODE 0 cinit -
+__Hidloc 0 0 IDLOC 0 idloc -
+__Hstack 0 0 STACK 2 stack -
+__stringbase 201E 0 STRING 0 strings dist/default/production\ADC_Project.X.production.obj
+__Hmaintext 0 0 ABS 0 maintext -
+__end_of_sprintf FEE 0 CODE 0 text1 dist/default/production\ADC_Project.X.production.obj
+___lltoft 23E2 0 CODE 0 text11 dist/default/production\ADC_Project.X.production.obj
+__size_of_lcd_init 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 4010 0 CONFIG 0 config -
+__size_of_lcd_gotoxy 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+___lwtoft 2236 0 CODE 0 text28 dist/default/production\ADC_Project.X.production.obj
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__end_of_isdigit 21C6 0 CODE 0 text3 dist/default/production\ADC_Project.X.production.obj
+__Lcinit FEE 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 0 idloc -
+___ftadd@exp1 52 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+___ftadd@exp2 51 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+___ftadd@sign 50 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__Lstack 0 0 STACK 2 stack -
+_Get_Voltage 2532 0 CODE 0 text27 dist/default/production\ADC_Project.X.production.obj
+_lcd_printStringXY 21C6 0 CODE 0 text19 dist/default/production\ADC_Project.X.production.obj
+__end_of___lltoft 2438 0 CODE 0 text11 dist/default/production\ADC_Project.X.production.obj
+__end_of___lwtoft 225E 0 CODE 0 text28 dist/default/production\ADC_Project.X.production.obj
+_PORTBbits 6 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+_PORTCbits 7 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+_lcd_char_out 238C 0 CODE 0 text21 dist/default/production\ADC_Project.X.production.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 0 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 0 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Ltext 0 0 ABS 0 text -
+___bmul 2210 0 CODE 0 text5 dist/default/production\ADC_Project.X.production.obj
+___ftge 2686 0 CODE 0 text18 dist/default/production\ADC_Project.X.production.obj
+___wmul 2304 0 CODE 0 text10 dist/default/production\ADC_Project.X.production.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__LcstackBANK2 0 0 ABS 0 cstackBANK2 -
+__LcstackBANK3 0 0 ABS 0 cstackBANK3 -
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__S0 2008 0 ABS 0 - -
+__S1 1E6 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+?_ADC_Read 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+lcd_printString@str 74 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+lcd_printStringXY@x 7A 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+lcd_printStringXY@y 7B 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+sprintf@exp A6 0 BANK1 1 cstackBANK1 dist/default/production\ADC_Project.X.production.obj
+sprintf@val AC 0 BANK1 1 cstackBANK1 dist/default/production\ADC_Project.X.production.obj
+__size_of_lcd_printString 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+_fround 1796 0 CODE 0 text4 dist/default/production\ADC_Project.X.production.obj
+_fround$659 42 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+_fround$660 3F 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+_lcd_init 2A46 0 CODE 0 text23 dist/default/production\ADC_Project.X.production.obj
+__Lintentry 0 0 CODE 0 intentry -
+___lldiv@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+__stringtab 2000 0 STRING 0 strings dist/default/production\ADC_Project.X.production.obj
+__size_of_lcd_char_out 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+_lcd_com 225E 0 CODE 0 text25 dist/default/production\ADC_Project.X.production.obj
+_lcd_out 228E 0 CODE 0 text26 dist/default/production\ADC_Project.X.production.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\DANTE_~1\AppData\Local\Temp\s544.obj
+__powers_ 2070 0 STRING 0 strings dist/default/production\ADC_Project.X.production.obj
+__size_of___bmul 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__size_of___ftge 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__size_of___wmul 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__end_of_lcd_init 2B64 0 CODE 0 text23 dist/default/production\ADC_Project.X.production.obj
+_scale$661 3B 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+___awmod@counter 20 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__end_of__powers_ 20BE 0 STRING 0 strings dist/default/production\ADC_Project.X.production.obj
+__tdiv_to_l_@cntr 24 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__tdiv_to_l_@exp1 25 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__tdiv_to_l_@quot 20 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+sprintf@flag A4 0 BANK1 1 cstackBANK1 dist/default/production\ADC_Project.X.production.obj
+sprintf@fval B3 0 BANK1 1 cstackBANK1 dist/default/production\ADC_Project.X.production.obj
+sprintf@prec B1 0 BANK1 1 cstackBANK1 dist/default/production\ADC_Project.X.production.obj
+__ptext10 2304 0 CODE 0 text10 dist/default/production\ADC_Project.X.production.obj
+__ptext11 23E2 0 CODE 0 text11 dist/default/production\ADC_Project.X.production.obj
+__ptext12 6 0 CODE 0 text12 dist/default/production\ADC_Project.X.production.obj
+__ptext13 1012 0 CODE 0 text13 dist/default/production\ADC_Project.X.production.obj
+__ptext14 292A 0 CODE 0 text14 dist/default/production\ADC_Project.X.production.obj
+__ptext15 22C2 0 CODE 0 text15 dist/default/production\ADC_Project.X.production.obj
+__ptext16 10CE 0 CODE 0 text16 dist/default/production\ADC_Project.X.production.obj
+__ptext17 1002 0 CODE 0 text17 dist/default/production\ADC_Project.X.production.obj
+__ptext18 2686 0 CODE 0 text18 dist/default/production\ADC_Project.X.production.obj
+__ptext19 21C6 0 CODE 0 text19 dist/default/production\ADC_Project.X.production.obj
+__ptext20 2346 0 CODE 0 text20 dist/default/production\ADC_Project.X.production.obj
+__ptext21 238C 0 CODE 0 text21 dist/default/production\ADC_Project.X.production.obj
+__ptext22 2818 0 CODE 0 text22 dist/default/production\ADC_Project.X.production.obj
+__ptext23 2A46 0 CODE 0 text23 dist/default/production\ADC_Project.X.production.obj
+__ptext24 2194 0 CODE 0 text24 dist/default/production\ADC_Project.X.production.obj
+__ptext25 225E 0 CODE 0 text25 dist/default/production\ADC_Project.X.production.obj
+__ptext26 228E 0 CODE 0 text26 dist/default/production\ADC_Project.X.production.obj
+__ptext27 2532 0 CODE 0 text27 dist/default/production\ADC_Project.X.production.obj
+__ptext28 2236 0 CODE 0 text28 dist/default/production\ADC_Project.X.production.obj
+__ptext29 2E5A 0 CODE 0 text29 dist/default/production\ADC_Project.X.production.obj
+__ptext30 2B64 0 CODE 0 text30 dist/default/production\ADC_Project.X.production.obj
+__ptext31 2740 0 CODE 0 text31 dist/default/production\ADC_Project.X.production.obj
+__ptext32 2438 0 CODE 0 text32 dist/default/production\ADC_Project.X.production.obj
+__ptext33 21EA 0 CODE 0 text33 dist/default/production\ADC_Project.X.production.obj
+___awdiv 25D4 0 CODE 0 text7 dist/default/production\ADC_Project.X.production.obj
+___awmod 2498 0 CODE 0 text6 dist/default/production\ADC_Project.X.production.obj
+___ftadd 10CE 0 CODE 0 text16 dist/default/production\ADC_Project.X.production.obj
+___ftdiv 2B64 0 CODE 0 text30 dist/default/production\ADC_Project.X.production.obj
+___ftmul 2E5A 0 CODE 0 text29 dist/default/production\ADC_Project.X.production.obj
+___ftneg 1002 0 CODE 0 text17 dist/default/production\ADC_Project.X.production.obj
+___ftsub 22C2 0 CODE 0 text15 dist/default/production\ADC_Project.X.production.obj
+___fttol 292A 0 CODE 0 text14 dist/default/production\ADC_Project.X.production.obj
+__tdiv_to_l_ 2CD4 0 CODE 0 text8 dist/default/production\ADC_Project.X.production.obj
+___lldiv 1012 0 CODE 0 text13 dist/default/production\ADC_Project.X.production.obj
+___llmod 6 0 CODE 0 text12 dist/default/production\ADC_Project.X.production.obj
+__pmaintext 12E0 0 CODE 0 maintext dist/default/production\ADC_Project.X.production.obj
+__end_of_lcd_char_out 23E2 0 CODE 0 text21 dist/default/production\ADC_Project.X.production.obj
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 400E 0 CONFIG 0 config -
+?___ftpack 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+___wmul@multiplier 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+__size_of_fround 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+main@data 1E4 0 BANK3 1 cstackBANK3 dist/default/production\ADC_Project.X.production.obj
+main@volt 6B 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+___lwtoft@c 78 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+stackhi 0 0 ABS 0 - C:\Users\DANTE_~1\AppData\Local\Temp\s544.obj
+stacklo 0 0 ABS 0 - C:\Users\DANTE_~1\AppData\Local\Temp\s544.obj
+?___lltoft 78 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+?___lwtoft 78 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+__end_of__stringtab 2020 0 STRING 0 strings dist/default/production\ADC_Project.X.production.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__div_to_l_ 1532 0 CODE 0 text9 dist/default/production\ADC_Project.X.production.obj
+main@buffer 110 0 BANK2 1 cstackBANK2 dist/default/production\ADC_Project.X.production.obj
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+___ftmul@cntr 34 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+___ftmul@sign 35 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__HcstackBANK2 0 0 ABS 0 cstackBANK2 -
+__HcstackBANK3 0 0 ABS 0 cstackBANK3 -
+__Lend_init 0 0 CODE 0 end_init -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__div_to_l_@f1 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+__div_to_l_@f2 73 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+end_of_initialization FF8 0 CODE 0 cinit dist/default/production\ADC_Project.X.production.obj
+lcd_com@com 73 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+__Hintentry 0 0 CODE 0 intentry -
+lcd_char_out@data 73 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+__Lstrings 0 0 ABS 0 strings -
+___awdiv@quotient 77 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+?___awdiv 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+?___awmod 79 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+?___ftadd 46 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+?___ftdiv 36 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+?___ftmul 26 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+?___ftneg 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+?___ftsub 53 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+?___fttol 3F 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+?___lldiv 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+?___llmod 20 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__Hreset_vec 0 0 CODE 0 reset_vec -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+___awmod@dividend 7B 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+___lltoft@exp 7D 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+__ptext1 A2 0 CODE 0 text1 dist/default/production\ADC_Project.X.production.obj
+__ptext2 1ACA 0 CODE 0 text2 dist/default/production\ADC_Project.X.production.obj
+__ptext3 21AA 0 CODE 0 text3 dist/default/production\ADC_Project.X.production.obj
+__ptext4 1796 0 CODE 0 text4 dist/default/production\ADC_Project.X.production.obj
+__ptext5 2210 0 CODE 0 text5 dist/default/production\ADC_Project.X.production.obj
+__ptext6 2498 0 CODE 0 text6 dist/default/production\ADC_Project.X.production.obj
+__ptext7 25D4 0 CODE 0 text7 dist/default/production\ADC_Project.X.production.obj
+__ptext8 2CD4 0 CODE 0 text8 dist/default/production\ADC_Project.X.production.obj
+__ptext9 1532 0 CODE 0 text9 dist/default/production\ADC_Project.X.production.obj
+_sprintf A2 0 CODE 0 text1 dist/default/production\ADC_Project.X.production.obj
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+sprintf@ap A3 0 BANK1 1 cstackBANK1 dist/default/production\ADC_Project.X.production.obj
+sprintf@sp B0 0 BANK1 1 cstackBANK1 dist/default/production\ADC_Project.X.production.obj
+_isdigit 21AA 0 CODE 0 text3 dist/default/production\ADC_Project.X.production.obj
+__Lreset_vec 0 0 CODE 0 reset_vec -
+scale@scl 3E 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__CFG_FOSC$XT 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__end_of__div_to_l_ 1796 0 CODE 0 text9 dist/default/production\ADC_Project.X.production.obj
+___ftmul@exp 30 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__end_of__initialization FF8 0 CODE 0 cinit dist/default/production\ADC_Project.X.production.obj
+___awmod@divisor 79 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+__Lfunctab 0 0 ENTRY 0 functab -
+__end_of_Get_Voltage 25D4 0 CODE 0 text27 dist/default/production\ADC_Project.X.production.obj
+?_scale 36 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__Lclrtext 0 0 ABS 0 clrtext -
+___ftpack@sign 74 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+sprintf@tmpval A8 0 BANK1 1 cstackBANK1 dist/default/production\ADC_Project.X.production.obj
+___lldiv@quotient 79 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+___ftdiv@cntr 40 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+___ftdiv@sign 45 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__Hend_init 6 0 CODE 0 end_init -
+___llmod@dividend 24 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+lcd_gotoxy@x 76 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+lcd_gotoxy@y 74 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+___llmod@counter 29 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+sprintf@c B6 0 BANK1 1 cstackBANK1 dist/default/production\ADC_Project.X.production.obj
+sprintf@f 59 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__end_of_main 1532 0 CODE 0 maintext dist/default/production\ADC_Project.X.production.obj
+isdigit@c 71 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+_ADCS0 FE 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+_ADCS1 FF 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__end_of_dpowers 2070 0 STRING 0 strings dist/default/production\ADC_Project.X.production.obj
+?_sprintf 59 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+_PCFG0 4F8 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+_PCFG1 4F9 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+_PCFG2 4FA 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+_PCFG3 4FB 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+_TRISB 86 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+_TRISC 87 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__end_of_scale 2000 0 CODE 0 text2 dist/default/production\ADC_Project.X.production.obj
+_main$655 B7 0 BANK1 1 cstackBANK1 dist/default/production\ADC_Project.X.production.obj
+_main$656 B9 0 BANK1 1 cstackBANK1 dist/default/production\ADC_Project.X.production.obj
+_main$657 1E0 0 BANK3 1 cstackBANK3 dist/default/production\ADC_Project.X.production.obj
+_main$658 1E2 0 BANK3 1 cstackBANK3 dist/default/production\ADC_Project.X.production.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+_scale 1ACA 0 CODE 0 text2 dist/default/production\ADC_Project.X.production.obj
+main@bufferVoltage 190 0 BANK3 1 cstackBANK3 dist/default/production\ADC_Project.X.production.obj
+___fttol@sign1 47 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__initialization FEE 0 CODE 0 cinit dist/default/production\ADC_Project.X.production.obj
+___bmul@product 24 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__pbssBANK1 BB 0 BANK1 1 bssBANK1 dist/default/production\ADC_Project.X.production.obj
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/production\ADC_Project.X.production.obj
+__pstrings 2000 0 STRING 0 strings dist/default/production\ADC_Project.X.production.obj
+___wmul@product 74 0 COMMON 1 cstackCOMMON dist/default/production\ADC_Project.X.production.obj
+_lcd_gotoxy 2818 0 CODE 0 text22 dist/default/production\ADC_Project.X.production.obj
+__div_to_l_@cntr 24 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__div_to_l_@exp1 25 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+__div_to_l_@quot 20 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+___ftmul@f3_as_product 31 0 BANK0 1 cstackBANK0 dist/default/production\ADC_Project.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 7F7 FEE 9 2
+text1 0 51 A2 7A6 2
+text2 0 D65 1ACA 29B 2
+text3 0 10D5 21AA E 2
+text4 0 BCB 1796 19A 2
+text5 0 1108 2210 13 2
+text6 0 124C 2498 4D 2
+text7 0 12EA 25D4 59 2
+text8 0 166A 2CD4 C3 2
+text9 0 A99 1532 132 2
+text10 0 1182 2304 21 2
+text11 0 11F1 23E2 2B 2
+text13 0 809 1012 5E 2
+text14 0 1495 292A 8E 2
+text15 0 1161 22C2 21 2
+text16 0 867 10CE 109 2
+text17 0 801 1002 8 2
+text18 0 1343 2686 5D 2
+text19 0 10E3 21C6 12 2
+text20 0 11A3 2346 23 2
+text21 0 11C6 238C 2B 2
+text22 0 140C 2818 89 2
+text23 0 1523 2A46 8F 2
+text24 0 10CA 2194 B 2
+text25 0 112F 225E 18 2
+text26 0 1147 228E 1A 2
+text27 0 1299 2532 51 2
+text28 0 111B 2236 14 2
+text29 0 172D 2E5A D3 2
+text30 0 15B2 2B64 B8 2
+text31 0 13A0 2740 6C 2
+text32 0 121C 2438 30 2
+text33 0 10F5 21EA 13 2
+maintext 0 970 12E0 129 2
+cstackCOMMON 1 70 70 E 1
+cstackBANK0 1 20 20 4E 1
+cstackBANK1 1 A0 A0 1E 1
+cstackBANK2 1 110 110 14 1
+cstackBANK3 1 190 190 56 1
+reset_vec 0 0 0 51 2
+strings 0 1000 2000 AF 2
+config 0 2007 400E 1 2

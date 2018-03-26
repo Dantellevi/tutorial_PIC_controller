@@ -1,0 +1,166 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"13 D:\gitRepository\tutorial_PIC_controller\Lesson\таймеры\таймер с постделителем\Timer_AddPostDel.X\main.c
+[v _isr isr `II(v  1 e 1 0 ]
+"34
+[v _Port_Init Port_Init `(v  1 e 1 0 ]
+"54
+[v _ledprint ledprint `(v  1 e 1 0 ]
+"67
+[v _segchar segchar `(v  1 e 1 0 ]
+"89
+[v _TIM2_CallBack TIM2_CallBack `(v  1 e 1 0 ]
+"122
+[v _Timer2_Init Timer2_Init `(v  1 e 1 0 ]
+"148
+[v _main main `(v  1 e 1 0 ]
+"57 C:\Program Files (x86)\Microchip\xc8\v1.44\include\pic16f887.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+[s S32 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"181
+[u S41 . 1 `S32 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES41  1 e 1 @5 ]
+"350
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1344
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1600
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2039
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"3780
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"3876
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"4062
+[v _T0IE T0IE `VEb  1 e 0 @93 ]
+"4064
+[v _T0IF T0IF `VEb  1 e 0 @90 ]
+"4084
+[v _T2CKPS0 T2CKPS0 `VEb  1 e 0 @144 ]
+"4086
+[v _T2CKPS1 T2CKPS1 `VEb  1 e 0 @145 ]
+"4088
+[v _TMR0IE TMR0IE `VEb  1 e 0 @93 ]
+"4090
+[v _TMR0IF TMR0IF `VEb  1 e 0 @90 ]
+"4102
+[v _TMR2IE TMR2IE `VEb  1 e 0 @1121 ]
+"4104
+[v _TMR2IF TMR2IF `VEb  1 e 0 @97 ]
+"4106
+[v _TMR2ON TMR2ON `VEb  1 e 0 @146 ]
+"4108
+[v _TOUTPS0 TOUTPS0 `VEb  1 e 0 @147 ]
+"4110
+[v _TOUTPS1 TOUTPS1 `VEb  1 e 0 @148 ]
+"4112
+[v _TOUTPS2 TOUTPS2 `VEb  1 e 0 @149 ]
+"4114
+[v _TOUTPS3 TOUTPS3 `VEb  1 e 0 @150 ]
+"4116
+[v _TRISA0 TRISA0 `VEb  1 e 0 @1064 ]
+"4118
+[v _TRISA1 TRISA1 `VEb  1 e 0 @1065 ]
+"4120
+[v _TRISA2 TRISA2 `VEb  1 e 0 @1066 ]
+"4122
+[v _TRISA3 TRISA3 `VEb  1 e 0 @1067 ]
+"3 D:\gitRepository\tutorial_PIC_controller\Lesson\таймеры\таймер с постделителем\Timer_AddPostDel.X\main.c
+[v _R1 R1 `uc  1 e 1 0 ]
+"4
+[v _R2 R2 `uc  1 e 1 0 ]
+"5
+[v _R3 R3 `uc  1 e 1 0 ]
+"6
+[v _R4 R4 `uc  1 e 1 0 ]
+"8
+[v _TIM1_Count TIM1_Count `ui  1 e 2 0 ]
+"9
+[v _n_count n_count `uc  1 e 1 0 ]
+"10
+[v _ncnt ncnt `uc  1 e 1 0 ]
+"148
+[v _main main `(v  1 e 1 0 ]
+{
+"161
+} 0
+"122
+[v _Timer2_Init Timer2_Init `(v  1 e 1 0 ]
+{
+"145
+} 0
+"34
+[v _Port_Init Port_Init `(v  1 e 1 0 ]
+{
+"49
+} 0
+"13
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"31
+} 0
+"89
+[v _TIM2_CallBack TIM2_CallBack `(v  1 e 1 0 ]
+{
+"119
+} 0
+"67
+[v _segchar segchar `(v  1 e 1 0 ]
+{
+[v segchar@seg seg `uc  1 a 1 wreg ]
+[v segchar@seg seg `uc  1 a 1 wreg ]
+[v segchar@seg seg `uc  1 a 1 0 ]
+"82
+} 0
+"54
+[v _ledprint ledprint `(v  1 e 1 0 ]
+{
+[v ledprint@number number `ui  1 p 2 0 ]
+"61
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 5 ]
+"6
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"26
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 11 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 13 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 6 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 8 ]
+"31
+} 0

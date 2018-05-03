@@ -1,0 +1,275 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877 ]
+[d frameptr 6 ]
+"492 D:\Program Files\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"62 D:\Program Files\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\Program Files\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"8 D:\Program Files\Microchip\xc8\v1.45\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"15 D:\Program Files\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.45\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"9 D:\GitRepository\tutorial_PIC_controller\Lesson\CCP Module\CCP_Project_protocol_NEC.X\LCD.c
+[v _Send_Data Send_Data `(v  1 e 1 0 ]
+"57
+[v _Send_command Send_command `(v  1 e 1 0 ]
+"70
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"109
+[v _lcd_Print_char lcd_Print_char `(v  1 e 1 0 ]
+"126
+[v _lcd_printString lcd_printString `(v  1 e 1 0 ]
+"138
+[v _lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+"189
+[v _lcd_printStringXY lcd_printStringXY `(v  1 e 1 0 ]
+"15 D:\GitRepository\tutorial_PIC_controller\Lesson\CCP Module\CCP_Project_protocol_NEC.X\main.c
+[v _isr isr `II(v  1 e 1 0 ]
+"66
+[v _main main `(v  1 e 1 0 ]
+[s S40 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"231 D:\Program Files\Microchip\xc8\v1.45\include\pic16f877.h
+[u S49 . 1 `S40 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES49  1 e 1 @6 ]
+[s S19 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"355
+[u S28 . 1 `S19 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES28  1 e 1 @8 ]
+"625
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+"878
+[v _CCPR1 CCPR1 `VEus  1 e 2 @21 ]
+"899
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @23 ]
+"1368
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1492
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2248
+[v _CCP1IE CCP1IE `VEb  1 e 0 @1122 ]
+"2250
+[v _CCP1IF CCP1IF `VEb  1 e 0 @98 ]
+"2312
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2352
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2504
+[v _T1CKPS0 T1CKPS0 `VEb  1 e 0 @132 ]
+"2506
+[v _T1CKPS1 T1CKPS1 `VEb  1 e 0 @133 ]
+"2522
+[v _TMR1CS TMR1CS `VEb  1 e 0 @129 ]
+"2524
+[v _TMR1IE TMR1IE `VEb  1 e 0 @1120 ]
+"2526
+[v _TMR1IF TMR1IF `VEb  1 e 0 @96 ]
+"2528
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
+"2576
+[v _TRISC2 TRISC2 `VEb  1 e 0 @1082 ]
+"354 D:\Program Files\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _dpowers dpowers `DC[5]ui  1 s 10 dpowers ]
+"362
+[v _hexpowers hexpowers `DC[4]ui  1 s 8 hexpowers ]
+"369
+[v _octpowers octpowers `DC[6]ui  1 s 12 octpowers ]
+"8 D:\GitRepository\tutorial_PIC_controller\Lesson\CCP Module\CCP_Project_protocol_NEC.X\main.c
+[v _lock lock `uc  1 e 1 0 ]
+"9
+[v _n n `ui  1 e 2 0 ]
+[v _i i `ui  1 e 2 0 ]
+"10
+[v _result result `[40]ui  1 e 80 0 ]
+"11
+[v _rc_code rc_code `uc  1 e 1 0 ]
+[v _rc_addr rc_addr `uc  1 e 1 0 ]
+[v _rc_code_old rc_code_old `uc  1 e 1 0 ]
+[v _rc_addr_old rc_addr_old `uc  1 e 1 0 ]
+"66
+[v _main main `(v  1 e 1 0 ]
+{
+"68
+[v main@str1 str1 `[21]uc  1 a 21 42 ]
+"101
+} 0
+"492 D:\Program Files\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+"1500
+[v sprintf@idx idx `uc  1 a 1 20 ]
+"508
+[v sprintf@flag flag `us  1 a 2 37 ]
+"501
+[v sprintf@width width `i  1 a 2 33 ]
+"528
+[v sprintf@val val `ui  1 a 2 30 ]
+"529
+[v sprintf@len len `ui  1 a 2 27 ]
+"499
+[v sprintf@c c `c  1 a 1 35 ]
+"506
+[v sprintf@prec prec `c  1 a 1 32 ]
+"494
+[v sprintf@ap ap `[1]*.4v  1 a 1 29 ]
+"530
+[v sprintf@cp cp `*.4DCuc  1 a 1 25 ]
+"492
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+[v sprintf@f f `*.24DCuc  1 p 1 14 ]
+"533
+[v sprintf@sp sp `*.4uc  1 a 1 36 ]
+"1541
+} 0
+"8 D:\Program Files\Microchip\xc8\v1.45\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 1 ]
+"15
+} 0
+"15 D:\Program Files\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 13 ]
+"6
+[v ___lwmod@divisor divisor `ui  1 p 2 8 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 10 ]
+"26
+} 0
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"31
+} 0
+"4 D:\Program Files\Microchip\xc8\v1.45\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 2 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 3 ]
+"51
+} 0
+"189 D:\GitRepository\tutorial_PIC_controller\Lesson\CCP Module\CCP_Project_protocol_NEC.X\LCD.c
+[v _lcd_printStringXY lcd_printStringXY `(v  1 e 1 0 ]
+{
+[v lcd_printStringXY@str str `*.39uc  1 p 2 8 ]
+[v lcd_printStringXY@x x `uc  1 p 1 10 ]
+[v lcd_printStringXY@y y `uc  1 p 1 11 ]
+"193
+} 0
+"126
+[v _lcd_printString lcd_printString `(v  1 e 1 0 ]
+{
+[v lcd_printString@str str `*.39uc  1 p 2 4 ]
+"133
+} 0
+"109
+[v _lcd_Print_char lcd_Print_char `(v  1 e 1 0 ]
+{
+[v lcd_Print_char@data data `uc  1 a 1 wreg ]
+[v lcd_Print_char@data data `uc  1 a 1 wreg ]
+"111
+[v lcd_Print_char@data data `uc  1 a 1 3 ]
+"119
+} 0
+"138
+[v _lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+{
+[v lcd_gotoxy@x x `uc  1 a 1 wreg ]
+"145
+[v lcd_gotoxy@temp temp `uc  1 a 1 7 ]
+"138
+[v lcd_gotoxy@x x `uc  1 a 1 wreg ]
+[v lcd_gotoxy@y y `uc  1 p 1 4 ]
+"140
+[v lcd_gotoxy@x x `uc  1 a 1 6 ]
+"181
+} 0
+"70
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+[v lcd_init@lcd lcd `uc  1 a 1 wreg ]
+[v lcd_init@lcd lcd `uc  1 a 1 wreg ]
+"72
+[v lcd_init@lcd lcd `uc  1 a 1 6 ]
+"103
+} 0
+"57
+[v _Send_command Send_command `(v  1 e 1 0 ]
+{
+[v Send_command@com com `uc  1 a 1 wreg ]
+[v Send_command@com com `uc  1 a 1 wreg ]
+"59
+[v Send_command@com com `uc  1 a 1 3 ]
+"64
+} 0
+"9
+[v _Send_Data Send_Data `(v  1 e 1 0 ]
+{
+[v Send_Data@data data `uc  1 a 1 wreg ]
+[v Send_Data@data data `uc  1 a 1 wreg ]
+"11
+[v Send_Data@data data `uc  1 a 1 0 ]
+"50
+} 0
+"15 D:\GitRepository\tutorial_PIC_controller\Lesson\CCP Module\CCP_Project_protocol_NEC.X\main.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"63
+} 0
